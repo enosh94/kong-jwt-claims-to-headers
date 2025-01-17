@@ -3,7 +3,7 @@
 
 Add unencrypted, base64-decoded claims from a JWT payload as request headers to the upstream service.
 
-Inspired by the original [[kong-plugin-jwt-claims-headers](https://github.com/wshirey/kong-plugin-jwt-claims-headers)](https://github.com/wshirey/kong-plugin-jwt-claims-headers/tree/master) , this plugin inspects the JWT token in your request and forwards specified claims as headers in the format:
+Inspired by the original [[kong-plugin-jwt-claims-headers](https://github.com/wshirey/kong-plugin-jwt-claims-headers)] , this plugin inspects the JWT token in your request and forwards specified claims as headers in the format:
 
 ```
 X-<claim-name>: <claim-value>
